@@ -11,7 +11,7 @@ driver = webdriver.Chrome()
 driver.maximize_window()
 
 # Target URL
-driver.get("https://www.mether.info/jobs/")
+driver.get("https://nz.mether.info/")
 print("Page title is:", driver.title)
 
 # Wait for page to load
